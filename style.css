@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Foldit:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    /* border: 2px solid; */
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 230px 1fr;
+}
+
+.container aside{
+    /* border: 2px solid red; */
+    background-color: rgb(56, 3, 56);
+    /* width: 20%; */
+}
+
+.container main{
+    /* border: 2px solid green; */
+    background-color: rgba(252, 218, 223, 0.37);
+    /* width: 80%; */
+}
+
+.menu-side{
+    /* border: 2px dotted wheat; */
+    color: #fff;
+    height: 80vh;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.menu-side ul li{
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    padding: 1rem;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: .5px;
+}
+
+.menu-side h1{
+    font-family: 'Foldit', cursive;
+    font-size: 1.8rem;
+    background-color: #fcfcfc;
+    border-radius: 50%;
+    padding-left: 22px;
+}
+
+.menu-side ul li:hover{
+    cursor: pointer;
+}
+
+.menu-side button{
+    font-family: 'Poppins', sans-serif;
+    padding: 5px 0;
+    background-color: wheat;
+    border: none;
+    border-radius: 20px 7px;
+}
+button{
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #fcfcfc;
+    color: #070707;
+    cursor: pointer;
+}
+
+main{
+    /* border: 2px solid rebeccapurple; */
+    overflow-y: scroll;
+}
+
+.searchbar{
+    border-bottom: 2px solid #0c0c0c;
+    max-width: 400px;
+    margin: 2rem auto;
+    display: flex;
+}
+
+.searchbar input[type=search]{
+    width: 100%;
+    padding: 5px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 16px;
+}
+
+.searchbar input[type=search]::placeholder{
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+
+section{
+    max-width: 950px;
+    margin: 2.5rem auto;
+}
+
+section h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.movie-items{
+    display: flex;
+    justify-content: space-between;
+}
+
+.view{
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    margin-right: 40px;
+    width: 220px;
+    height: 200px;
+}
+
+.view iframe{
+    width: 220px;
+    height: 150px;
+}
+
+.view p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    margin-top: .4rem;
+
+    
+}
